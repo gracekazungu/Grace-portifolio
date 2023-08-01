@@ -9,7 +9,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .2s linear;
     line-height: 1.5;
 }
@@ -150,18 +150,18 @@ display: none;
     flex: 1 1 40rem;
 }
 .home .content h3{
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--main-color);
 }
 .home .content .hi{
     font-size: 4.5rem;
     color: #111;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .home .content h3 span{
     font-size: 4.5rem;
     color: var(--main-color);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .home .content .info{
@@ -212,6 +212,11 @@ font-size: 3.5rem;
 color: #666;
 font-size: 1.7rem;
 padding: .5rem 0;
+}
+
+.about .content h3 span{
+    font-size: 4.5rem;
+    color: var(--main-color);
 }
 /* .about .row-2{
     display: flex;
@@ -328,7 +333,7 @@ gap: 1.5rem;
     position: absolute;
     bottom: .5rem;left: 1rem;
     color: #333;
-text-transform: uppercase;
+/* text-transform: uppercase; */
 }
 .portifolio .box-container .box .icons{
     position: absolute;
@@ -419,10 +424,10 @@ margin: 1rem 0;
 .contact .row form textarea:focus{
     border-color: var(--main-color);  
 }
-.contact .row form .box::placeholder,
-.contact .row form textarea::placeholder{
-text-transform: capitalize;
-}
+/* .contact .row form .box::placeholder,
+.contact .row form textarea::placeholder{ */
+/* text-transform: capitalize; */
+/* } */
 .contact .row form textarea{
     height: 20rem;
     resize: none;
